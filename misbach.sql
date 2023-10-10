@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 02, 2023 at 07:25 PM
+-- Generation Time: Oct 10, 2023 at 11:17 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.9
 
@@ -45,7 +45,16 @@ INSERT INTO `article` (`article_id`, `user_id`, `title`, `publication_date`, `co
 (60, 1, 'Login Register', '2023-09-28', 'Making web page'),
 (61, 1, 'Write Article', '2023-09-28', 'About HTML CSS'),
 (62, 2, 'Animated on Scroll', '2023-09-28', 'using Javascript'),
-(70, 1, 'NEw', '2023-10-02', 'write OPO');
+(70, 1, 'NEw', '2023-10-02', 'write OPO'),
+(74, NULL, NULL, '2023-10-04', NULL),
+(75, NULL, NULL, '2023-10-04', NULL),
+(76, NULL, NULL, '2023-10-04', NULL),
+(77, 2, 'ANYAR', '2023-10-04', 'sdf'),
+(78, NULL, NULL, '2023-10-04', NULL),
+(79, NULL, NULL, '2023-10-04', NULL),
+(80, NULL, NULL, '2023-10-04', NULL),
+(81, NULL, NULL, '2023-10-04', NULL),
+(82, NULL, NULL, '2023-10-04', NULL);
 
 -- --------------------------------------------------------
 
@@ -96,7 +105,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `article`
 --
 ALTER TABLE `article`
-  MODIFY `article_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
+  MODIFY `article_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=83;
 
 --
 -- AUTO_INCREMENT for table `users`
